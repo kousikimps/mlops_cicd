@@ -1,9 +1,7 @@
 from typing import Any
-
 from fastapi import APIRouter, FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
-
 import json
 
 import numpy as np
@@ -16,7 +14,7 @@ from regression_model.predict import make_prediction
 
 
 
-
+print("model_version")
 
 
 
