@@ -1,0 +1,7 @@
+#commands
+conda create -n jenkins-env python=3.9 -y
+conda activate jenkins-env
+pip install -r src/requirements/requirements.txt
+
+#model install
+pip install src/.
