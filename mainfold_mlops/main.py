@@ -17,7 +17,7 @@ from regression_model.predict import make_prediction
 print("model_version")
 print("test started")
 
-
+print("testing chekcj")
 
 
 app = FastAPI(
