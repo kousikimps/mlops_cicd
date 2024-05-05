@@ -15,6 +15,7 @@ from regression_model.predict import make_prediction
 
 
 print("model_version")
+print("test started")
 
 
 
